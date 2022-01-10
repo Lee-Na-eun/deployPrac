@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 require('dotenv').config();
 
-const serverPort = 8080;
+const serverPort = 80;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
